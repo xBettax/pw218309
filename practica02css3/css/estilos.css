@@ -1,73 +1,65 @@
 body{
-	font-size: 16px;
-	margin:0px auto;
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*1078 es requerimiento del cliente*/
 	max-width: 1078px;
 	min-height: 1078px;
-	/*1078 requerimiento del cliente*/
 }
 header input{
-	float:right;
+	float: right;
 	margin-right: -200px;
-	position:relative;
 	margin-top: 15px;
+	position: relative;
 }
 header nav{
 	margin-left: 220px;
 	/*text-align: center;*/
 }
 header nav ul li{
-	color:gray;
+	border-bottom: 1px solid gray;
+	color: gray;
 	display: inline-block;
 	font-size: 1.8em;
 	margin-right: 15px;
-	border-bottom: 1px solid gray;
 	padding-bottom: 2px;
-}
-
-
-#primerseccion{
-
-/*border: 1px solid blue;*/
-
-margin-top: 60px;
-
-}
-#primerseccion article{
-	/*border: 1px solid red;*/
-	
-    display: inline-block;
-    vertical-align: top;
+	/*text-decoration: underline;*/
 }
 #bgoffer{
-
 	left: -35px;
-    position:  relative;
+	position: relative;
 	top: -410px;
 }
 #granthams{
-	margin-top: 25px;
 	margin-left: 25px;
+	margin-top: 25px;	
 }
 #paint{
-float:right;
+	float: right;
+}
+#primerseccion{
+	/*border: 1px solid blue;*/
+	height: 318px;
+	margin-top: 60px;
+}
+#primerseccion article{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
 }
 #secc01art01{
-margin-left: 30px;
+	margin-left: 30px;
 	width: 61%;
 }
 #secc01art02{
-    
-    margin-left: 50px;
+	margin-left: 50px;
 	width: 30%;
 }
 #secc01art02 ul{
-	list-style: none; /* quitamos vinetas*/
+	list-style: none; /*quitamos viñetas*/
 }
-
 #secc01art02 ul li:before{
-
-	content: "• ";
 	color: #b28787;
+	content: "• ";
 }
 #secc03art04{
 	padding-top: 60px;
@@ -77,35 +69,35 @@ margin-left: 30px;
 	text-align: right;
 }
 #terceraseccion article{
-	display:inline-block;
+	display: inline-block;
+	padding-left: 8px;
 	vertical-align: top;
 	width: 23%;
-	padding-left: 8px;
 }
 #terceraseccion article img{
+/*	Alineación vertical 
+	del texto que lo rodea*/
 	vertical-align: middle;
 }
-#terceraseccion article input[type='button']{
+#terceraseccion article input[type="button"]{
 	background: #8BC500;
 	border-radius: 5px;
 	color: white;
 }
-#terceraseccion article input[type='email']{
+#terceraseccion article input[type="email"]{
 	border-radius: 5px;
 }
 .colorazul{
-	color:#4267B3;
+	color: #4267B3;
 }
 .colorrosa{
-
 	color: #FF0099;
 }
 .colorverde{
-	color:#8BC500;
+	color: #8BC500;
 }
 .letragrande{
-
-	font-size: 3.5em; /* 3.5x16*/
+	font-size: 3.5em; /* 3.5x16 */
 }
 .letramediana{
 	font-size: 2em;
