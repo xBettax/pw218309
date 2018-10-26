@@ -1,0 +1,78 @@
+body{
+	max-width: 1024px; /*estandar de ancho maximo de una pantalla*/
+	border:1px solid blue; /*bode de la caja (usado como referencia)*/
+	margin:0px auto; /*se usa para centrar cajas, no contenido*/
+	font-size: 1em;
+}
+header{
+	background: #cfe2e7;
+}
+header nav{
+	background: #026DC6;
+	padding: 2px 0px;/*stablece la anchura de algunas o todas las zonas de relleno de los elementos*/
+	width: 99%;
+	margin: 0px auto;
+	border-radius: 5px;
+}
+header nav ul li{
+	color: white;
+	display: inline-block; /*poner los elementos de una lista en forma de caja y quitar numeracion y/o viñetas*/
+}
+header form input{
+	border-radius: 5px; /*bordes redondos (se especifica el ancho)*/
+	height: 30px;
+}
+header form input[type="button"]{
+	background: green;
+	border: 1px solid green;
+	color: white;
+}
+header nav form{
+ 	float:right; 
+ 	margin-right:20px;
+ 	margin-top: -40px;
+}
+
+#logo{
+	margin-top: -150px;
+}
+
+#primeraseccion{
+	margin-top:15px;
+}
+
+#primeraseccion article{
+	text-align: center;
+}
+
+#primeraseccion article img{
+	border:5px solid rgba(15.,150,150,0.5);
+}
+#segundaseccion article input[type="submit"]{
+	background: white;
+	color:blue;
+	border-radius: 5px;
+	height: 30px;
+	margin-left: 130px;
+}
+#segundaseccion article{
+width: 33%;
+display: inline-block;
+vertical-align: top;
+padding-bottom: 10px;
+}
+
+.nito{
+font-weight: bold;
+}
+
+.unaSeccion{
+font-size: 4.5em;
+}
+
+.otraSeccion{
+	font-size: 2.5em;
+}
+
+/*margin(hacia afuera:top(), left(), bottom(), right();*/
+/*padding:(hacia adentro);
