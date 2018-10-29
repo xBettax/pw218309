@@ -1,0 +1,124 @@
+body{
+	font-size:14px;
+	background: #0e0e0e;
+	color:white;
+	max-width: 1024px;
+	max-height:1300px;
+	margin: 0px auto;
+	border-top: none;
+}
+header{
+	border-top: solid 1px white; 
+	background: #3a3a3a;
+	
+}
+header img {
+	margin-left: 20px;
+}
+header input{
+	height: 30px;
+	width: 90px;
+	background: #3a3a3a;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: white;
+	margin-left: 20px
+	
+}
+#site{
+	margin-right: 10px;
+	margin-right: 110px; 
+	margin-bottom: -15px;
+	margin-top: 10px;
+	width: 15%;
+}
+#imgs{
+	margin-bottom: -7px;
+}
+#libros{
+		margin-right: 50px;
+		margin left: 500px;
+}
+#secc01{
+	background: #e62c85;
+	background-image: url(https://i.imgur.com/voLexVS.png);
+}
+#secc01 article{
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+}
+#secc01art01{
+	margin-left:-40px;
+}
+#secc01art03 input[type="button"]{
+	width: 350px;
+	height: 40px;
+	font-size: 1.3em;
+	font-weight: bold;
+	color:#e62d85;
+	padding:10px;
+}
+#secc02{
+	background: #262626;
+	background-image: url(https://i.imgur.com/voLexVS.png);
+}
+#secc02 article{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#secc02art01 input[type="button"]{
+	width: 260px;
+	height: 60px;
+	margin-top: 45px;
+}
+#secc02art02 img{
+	width:95%;
+	margin-left:90px;
+}
+#secc03{
+	background: #ef8c25;
+}
+#secc03 article{
+	padding-top: 25px;
+	padding-bottom:30px;
+	padding-left: 10px; 
+}
+.menu{
+	color: #d7d7d7;
+}
+.colorazulboton{
+	background: #3ec9cb;
+	border:none;
+	color: white;
+}
+.letramediana{
+	font-size: 1.5em;
+}
+.letragrande{
+	font-size: 1.7em;
+}
+.letragigante{
+	font-size: 2.4em;
+}
+.bold{
+	font-weight:bold;
+}
+.letragris{
+	color: #e5e5e5;
+}
+.letramega{
+	font-size: 3em;
+}
+.final{	
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
