@@ -1,0 +1,51 @@
+body{
+	border: 1px solid black;
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 2082px;
+}
+header{
+	padding-left: 15px;
+	padding-bottom: 20px;
+}
+header img{
+	margin-left: 215px;
+}
+header input{
+	height: 51px;
+	vertical-align: top;
+	width: 150px;
+}
+#seccion01{
+	background: #2b2b2b;
+}
+#seccion01 article{
+	display: inline-block;
+	height: 400px;
+	vertical-align: top;
+	width: 379px;
+}
+#seccion01 ul{
+	list-style: none;
+}
+#seccion01 ul li{
+	font-size: 1.5em;
+}
+.color_gris{
+	background: #545454;
+}
+.color_rojo{
+	background: #d23b3a;
+}
+.color_otrogris{
+	background: #e6e6e6;
+}
+.color_verde{
+	background: #b7ce3e;
+}
+.letra_home{
+	color: white;
+}
+.letra_comun{
+	color: #838383;
+}
