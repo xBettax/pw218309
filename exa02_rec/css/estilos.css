@@ -1,0 +1,76 @@
+body{
+	margin: 0px auto;
+	font-size:
+	1.4em;	
+	margin-top:20px;
+	margin-right: 50px;
+	margin-left: 50px;
+
+}
+header{
+	border-bottom:solid 5px black;
+
+	
+}
+header img{
+	width: 1.5%;
+	margin-top:20px;
+}
+#sec01 article{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 40px;	
+}
+#sec01art01 img{
+	margin-top: 20px;
+	margin-right:50px; 
+}
+#sec01art01{
+	
+	width: 60
+	margin-top: 10px;
+	
+}
+#sec01art02{
+	width: 30%;
+	border-left: solid 5px black;
+	text-align: center;
+	
+}
+#sec01art02 img{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#tela{
+	width: 70%;
+}
+#img02{
+	width: 70%;
+}
+#carrito{
+	margin-left: 50px;
+
+}
+
+.letragris{
+	color: #a5a5a5;
+}
+.mediana{
+	font-size: 1.5em;
+}
+.indigo{
+	font-size:3em;
+}
+.bold{
+	font-weight: bold;
+}
+.txt{
+	position: relative;
+	bottom:320px;
+	left: 40px;
+}
+.letraparrafo{
+	position: relative;
+	left: 40px;
+
+}
