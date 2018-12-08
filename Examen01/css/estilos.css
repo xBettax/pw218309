@@ -3,7 +3,7 @@ body{
 	background: #0e0e0e;
 	color:white;
 	max-width: 1024px;
-	max-height:1300px;
+	min-width: 1024px;
 	margin: 0px auto;
 	border-top: none;
 }
