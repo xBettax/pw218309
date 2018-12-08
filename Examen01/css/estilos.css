@@ -61,6 +61,7 @@ header input{
 	font-weight: bold;
 	color:#e62d85;
 	padding:10px;
+	border: solid white 1px;
 }
 #secc02{
 	background: #262626;

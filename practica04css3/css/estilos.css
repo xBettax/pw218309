@@ -1,0 +1,79 @@
+body{
+	font-size: 1em;
+	margin:0px auto;
+	max-width: 1024px;
+	min-height: 1078px;
+	background: black;
+}
+header{
+	border:solid 1px green;
+	background: white;
+}
+header img[src="img/first_bike.png"]{
+	width: 17%;
+	padding-top: 30px;
+	padding-left: 35px;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+	padding-bottom: 2px;
+	margin-top: 40px;
+}
+footer{
+	background: white;
+}
+#buy{
+}
+#go{
+}
+#secc01{
+	background: white;
+}
+#secc02{
+	background: white;
+}
+#secc1{
+	background: white;
+}
+#secc01 article{
+	display: inline-block;
+	border: solid blue 1px;
+	
+}
+#secc01art02 img{
+	width: 40%;
+	
+}
+#secc01art03{
+	border-top: dashed gray 1px;
+	
+}
+#secc01art03 img{
+}
+
+#secc02 article{
+	border:solid 1px red;
+}
+footer article{
+	border:solid 1px orange;
+}
+.menu{
+	font-size:1.2em;
+}
+.negro{
+}
+.bold{
+	font-weight: bold;
+}
+.verde{
+	color: #73f33d;
+}
+.gigante{
+	font-size:1.2em;
+}
+.parr{
+}
+.parrgris{
+	color:#b4b4b4;
+}
